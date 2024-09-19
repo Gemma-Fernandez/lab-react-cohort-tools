@@ -13,6 +13,7 @@ function App() {
       <div className="pages">
         <Routes>
           <Route path={"/"} element={<HomePage />} />
+          <Route path={"StudentsDetailsPage/:student._id"} element={<StudentDetailsPage />}/>
           <Route
             path={"/StudentsDetailsPage"}
             element={<StudentDetailsPage />}
